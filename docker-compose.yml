@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  app1:
+    build:
+      context: ./mbk-ba
+      dockerfile: Dockerfile.app1
+    ports:
+      - "8001:80"
+
+  app2:
+    build:
+      context: ./mbk-ba-auth
+      dockerfile: Dockerfile.app2
+    ports:
+      - "8002:80"
+
+  app3:
+    build:
+      context: ./mbk-ba-bud
+      dockerfile: Dockerfile.app3
+    ports:
+      - "8003:80"

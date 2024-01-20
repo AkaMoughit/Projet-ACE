@@ -1,0 +1,50 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment configuration
+.env
+
+# Logs
+logs/
+
+# Dependency management
+poetry.lock
+pyproject.toml
+
+# Compiled source
+__pycache__/
+*.pyc
+
+# Local development configuration
+.local/
+
+# Database files
+*.sqlite3
+
+# Docker
+.docker/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor specific files
+*~
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration files
+local_settings.py
